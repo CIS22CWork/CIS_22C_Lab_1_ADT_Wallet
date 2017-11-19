@@ -13,18 +13,17 @@ This assignment was locked Oct 16 at 3:30pm.
 Programming problem: Simulate your wallet and its contents when on a foreign trip.
 
 A. Create a currency class with four attributes - currency name, whole parts and fractional parts and fractional's name such that 100 fractional parts equals 1 whole part.
-B. Create 5 derived classes for the following currencies - Dollar, Euro, Yen, Rupee and Yuan. I know this program can be done without inheritance but it is a requirement for this lab. You will be adding and subtracting currency values using the form:
-
-Dollar, 1, 25, cent
-Euro, 3, 33, cent
-Yen, 100, 54, sen
-Rupee, 7, 11, paise
-Yuan, 50, 86, fen
-C. Define overloaded operators to add or subtract different currency objects - care should be taken that you can only perform these operation on objects of the same currency. Also, take care that fractional parts roll into whole parts.
-D. Define an overloaded input stream operator to accept values of any currency as well as an overloaded output stream operator to write out the value of the currency..
-E. When initializing currency objects, your code should demonstrate polymorphic construction.  Your constructors should also use initialization lists.
-F. Now, define a Wallet class that will contain the 5 individual currency types above and will implement the following - number of individual currency types, check if a currency type exists in the wallet, add money by currency, remove money by currency, remove all currencies, check if wallet is empty. What this means is that your wallet can only contain one object of each currency type. To add or remove money into/from wallet, check if currency exists in the wallet.  If so, add or remove the amount specified.
-G. Your main should allow the user to add a maximum of 5 different currency types to the wallet in the form of the base currency array - this will help you demonstrate the polymorphic construction.  Demonstrate the overloaded subscript operator for the Wallet class.  User should be able to add or remove as many currency values for any of the five currency types.  The user should also be able to output the total value by name of the currencies in the wallet.  Finally they should be able to empty the wallet and print relevant information about the operation.  User Interactivity is extremely important - give due consideration to it.
+<br />B. Create 5 derived classes for the following currencies - Dollar, Euro, Yen, Rupee and Yuan. I know this program can be done without inheritance but it is a requirement for this lab. You will be adding and subtracting currency values using the form:
+<br />Dollar, 1, 25, cent
+<br />Euro, 3, 33, cent
+<br />Yen, 100, 54, sen
+<br />Rupee, 7, 11, paise
+<br />Yuan, 50, 86, fen
+<br />C. Define overloaded operators to add or subtract different currency objects - care should be taken that you can only perform these operation on objects of the same currency. Also, take care that fractional parts roll into whole parts.
+<br />D. Define an overloaded input stream operator to accept values of any currency as well as an overloaded output stream operator to write out the value of the currency..
+<br />E. When initializing currency objects, your code should demonstrate polymorphic construction.  Your constructors should also use initialization lists.
+<br />F. Now, define a Wallet class that will contain the 5 individual currency types above and will implement the following - number of individual currency types, check if a currency type exists in the wallet, add money by currency, remove money by currency, remove all currencies, check if wallet is empty. What this means is that your wallet can only contain one object of each currency type. To add or remove money into/from wallet, check if currency exists in the wallet.  If so, add or remove the amount specified.
+<br />G. Your main should allow the user to add a maximum of 5 different currency types to the wallet in the form of the base currency array - this will help you demonstrate the polymorphic construction.  Demonstrate the overloaded subscript operator for the Wallet class.  User should be able to add or remove as many currency values for any of the five currency types.  The user should also be able to output the total value by name of the currencies in the wallet.  Finally they should be able to empty the wallet and print relevant information about the operation.  User Interactivity is extremely important - give due consideration to it.
 
  
 
