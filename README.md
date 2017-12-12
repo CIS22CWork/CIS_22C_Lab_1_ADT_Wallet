@@ -1,3 +1,8 @@
+De Anza College<BR>
+Manish Goel<BR>
+Fall 2017<BR>
+CIS22C Data Abstract & Structures<BR>
+
 # Instructions
 This assignment was locked Oct 16 at 3:30pm.
 <br />This assignment should be done in teams of 2.  Remember to name both partners in the comment section of the submission as well as in comment block of the main.
